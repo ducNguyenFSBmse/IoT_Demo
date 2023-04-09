@@ -39,9 +39,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onSwitched(ToggleableView toggleableView, boolean isOn) {
                 if(isOn == true){
-                    sendDataMQTT("ducNg22mse23059/feeds/images-dashboard", "1");
+                    sendDataMQTT("HienNTM/feeds/nutnhan1", "1");
                 } else {
-                    sendDataMQTT("ducNg22mse23059/feeds/images-dashboard", "0");
+                    sendDataMQTT("HienNTM/feeds/nutnhan1", "0");
                 }
             }
         });
@@ -50,9 +50,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onSwitched(ToggleableView toggleableView, boolean isOn) {
                 if(isOn == true){
-                    sendDataMQTT("ducNg22mse23059/feeds/images-dashboard", "1");
+                    sendDataMQTT("HienNTM/feeds/nutnhan2", "1");
                 } else {
-                    sendDataMQTT("ducNg22mse23059/feeds/images-dashboard", "0");
+                    sendDataMQTT("HienNTM/feeds/nutnhan2", "0");
                 }
             }
         });
